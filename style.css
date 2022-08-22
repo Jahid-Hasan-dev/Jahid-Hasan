@@ -1,9 +1,48 @@
 *{
-    background: #000;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 body {
-    width: 1500px;
+    background: #1D262D;
+}
+header{
+    background: #000;
+    height: 3em;
+}
+nav{
+    width: ;
+    direction: rtl;
+    padding: 1em 5em 0em 0em;
+}
+nav ul{
+    display: flex;
+    /* flex-direction: ; */
+    gap: 30px;
+    text-decoration: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #707070;
+    font-family: Segoe UI;
+}
+.box-container{
+    display: grid;
+
+}
+.box-1{
+    height: 100px;
+    width: 100px;
+    background: #F3CA20;
+}
+.box-2{
+    height: 100px;
+    width: 100px;
+    background: #F3CA20;
+}
+.box-3{
+    height: 100px;
+    width: 100px;
+    background: #000000;
 }
