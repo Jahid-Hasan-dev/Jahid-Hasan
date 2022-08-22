@@ -9,10 +9,12 @@ body {
 }
 header{
     background: #000;
-    height: 3em;
+    display: flex;
+    flex-direction: column;
+
 }
 nav{
-    width: ;
+    margin-bottom: 8px;
     direction: rtl;
     padding: 1em 5em 0em 0em;
 }
@@ -27,22 +29,32 @@ nav ul li a{
     color: #707070;
     font-family: Segoe UI;
 }
-.box-container{
+.stripe{
+    position: relative;
+    background: #F3CA20;
+    height: 2px;
+}
+.main-container{
     display: grid;
-
+    justify-items: center;
+    margin: auto;
+    padding: 3em;
+    width: 70%;
 }
-.box-1{
+.box {
+    position: absolute;
     height: 100px;
     width: 100px;
     background: #F3CA20;
 }
-.box-2{
-    height: 100px;
-    width: 100px;
-    background: #F3CA20;
+.one{
+    bottom: 50%;
+    right: 50%;
 }
-.box-3{
-    height: 100px;
-    width: 100px;
-    background: #000000;
+.two{
+    top: 50%;
+    left: 50%;
+}
+.three{
+    background: #000;
 }
